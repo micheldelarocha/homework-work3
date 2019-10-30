@@ -1,0 +1,28 @@
+#divFrutas>img,
+#divJogo>img {
+    cursor: pointer;
+}
+
+.img-morango {
+    width: 70px;
+}
+
+.img-banana {
+    width: 70px;
+}
+
+.img-laranja {
+    width: 70px;
+}
+
+.img-maca {
+    width: 70px;
+}
+
+.img-uva {
+    width: 70px;
+}
+
+.altura {
+    height: 100px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Salada de frutas</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-primary text-white py-2">
+        <img src="img/salada.png" alt="Salada de frutas" width="72px" class="float-left mx-4">
+        <h2>Jogo da Salada de Frutas</h2>
+        <h5><i>Clique sobre as frutas e adicione o número indicado</i></h5>
+    </div>
+
+    <div class="text-center my-4" id="divFrutas">
+        <img src="img/banana.png" alt="Banana" id="imgBanana" width="140px">
+        <img src="img/morango.png" alt="Morango" id="imgMorango" width="140px">
+        <img src="img/laranja.png" alt="Laranja" id="imgLaranja" width="140px">
+        <img src="img/maca.png" alt="Maçã" id="imgMaca" width="140px">
+        <img src="img/uva.png" alt="Uva" id="imgUva" width="140px">
+    </div>
+
+    <div class="bg-danger py-3 ">
+        <h3 class="ml-5">Monte a Salada de Frutas com:</h3>
+        <h5 class="font-italic ml-5" id="outFrutas">
+        </h5>
+    </div>
+
+    <div class="my-5 text-center altura-div" id="divJogo">
+
+    </div>
+
+    <div class="d-none" id="divBotoes">
+        <a href="index.html"><button class="btn btn-danger btn-lg px-4 py-2 float-right mr-3" id="btJogarNovamente">Jogar novamente</button></a>
+        <button class="btn btn-primary btn-lg px-4 float-right mr-3" id="btVerificar">Verificar</button>
+    </div>
+
+    <script src="js/jogo.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
